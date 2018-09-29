@@ -27,6 +27,7 @@ Para rodar o servidor apontando para o banco de testes da cloud:
 Para instalar deve-se copiar a pasta pll-connector-server para a máquina onde a aplicação vai ficar hospedada. É possível alterar os parâmetros de execução da aplicação editando o arquivo pll-connector-server.xml.
 
 Usando um prompt de comando com permissão administrativa executar os seguintes comandos:
+    
     cd pll-connector-server
     pll-connector-server.exe install
     net start pll-connector-server
