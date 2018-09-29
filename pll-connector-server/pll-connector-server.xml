@@ -1,0 +1,16 @@
+<service>
+	<id>pll-connector-server</id>
+	<name>PLL Connector Server</name>
+	<description>PLL Connector Server</description>
+	<workingdirectory>%BASE%\</workingdirectory>
+	<logpath>%BASE%\logs</logpath>
+	<logmode>rotate</logmode>
+
+	<executable>java</executable>
+	<startargument>-jar</startargument>
+	<startargument>pll-connector-server.jar</startargument>
+	<startargument>--spring.datasource.url=jdbc:mysql://us-cdbr-iron-east-01.cleardb.net:3306/ad_f4e16b10f49e489</startargument>
+	<startargument>--spring.datasource.username=bd59731e9e9cb9</startargument>
+	<startargument>--spring.datasource.password=575e7dfae73659d</startargument>
+	<startargument>--server.port=9000</startargument>
+</service>
