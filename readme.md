@@ -20,7 +20,7 @@ No arquivo schema.sql está a estrutura de banco que eu utilizei.
 
 Para rodar o servidor apontando para o banco de testes da cloud:
 
-    java -jar pll-connector-server\pll-connector-server.jar --spring.datasource.url=jdbc:mysql://us-cdbr-iron-east-01.cleardb.net:3306/ad_f4e16b10f49e489 --spring.datasource.username=bd59731e9e9cb9 --spring.datasource.password=575e7dfae73659d
+    java -jar pll-connector-server\pll-connector-server.jar --spring.datasource.url=jdbc:mysql://us-cdbr-iron-east-01.cleardb.net:3306/ad_f4e16b10f49e489 --spring.datasource.username=bd59731e9e9cb9 --spring.datasource.password=575e7dfae73659d --server.port=2001 --server.host=10.0.3.8
 
 ## Instalação
 
